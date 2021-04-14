@@ -1,6 +1,6 @@
 const StringReplace= (name) => {
-    var name = "sravani"
+    var name = "sid"
      console.log('hello' + name + 'how are you');
+     return name;
  }
-console.log(StringReplace());
-return StringReplace;
+StringReplace();

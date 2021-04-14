@@ -29,4 +29,5 @@ if ( a)
 else
     console.log("The two strings are not"
                        + " anagram of each other"); 
-      console.log(a)                 
+      console.log(a)     
+            
