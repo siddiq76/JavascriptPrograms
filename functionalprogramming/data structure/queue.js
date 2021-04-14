@@ -17,6 +17,9 @@ class queue {
     display() {
         console.log(this.queue);
     }
+    getsize() {
+        return this.queue.length;
+    }
 }
 
 let obj = new queue();
@@ -30,3 +33,4 @@ for (let i = 0; i < number; i++) {
 obj.display();
 obj.dequeue();
 obj.display();
+obj.getsize();
