@@ -8,6 +8,6 @@ const isAnagram = (str1, str2) => {
         .join('');
     return normalize(str1) === normalize(str2);
   };
-  console.log(isAnagram('xmen', 'xmen')); 
+  console.log(isAnagram('xmen', 'faxmen')); 
   console.log(isAnagram('sir', 'sir'));
   

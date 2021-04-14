@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 const num = prompt('Enter a positive number: ');
 
 console.log(`The factors of ${num} is:`);
