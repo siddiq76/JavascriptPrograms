@@ -1,7 +1,7 @@
 const input = require("readline-sync")
 
-const utility = require ("./uitility.js")
-var a = utility.areAnagram(str1 , str2)
+// const utility = require ("./uitility.js")
+// var a = utility.areAnagram(str1 , str2)
 var size = input.questionInt("Enter the size of array: ");
 var str1 = [];
 for(let i=0;i<size;i++)
